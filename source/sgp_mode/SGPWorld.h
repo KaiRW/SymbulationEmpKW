@@ -164,6 +164,7 @@ public:
   SyncDataMonitor<double> &GetSymDonatedDataNode();
   SyncDataMonitor<double> &GetSymStolenDataNode();
   SyncDataMonitor<double> &GetSymEarnedDataNode();
+  emp::vector<emp::DataMonitor<size_t>> &GetHostTasksDataNode();
   void SetupTasksNodes();
 
   emp::DataFile &SetUpOrgCountFile(const std::string &filename);

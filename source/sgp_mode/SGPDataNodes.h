@@ -139,4 +139,9 @@ SyncDataMonitor<double> &SGPWorld::GetSymStolenDataNode() {
   return *data_node_sym_stolen;
 }
 
+emp::vector<emp::DataMonitor<size_t>> &SGPWorld::GetHostTasksDataNode() {
+  SetupTasksNodes();
+  return data_node_host_tasks;
+}
+
 #endif

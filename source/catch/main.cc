@@ -38,4 +38,5 @@
 #include "../test/integration_test/endosymbiosis/res_distribute.test.cc"
 #include "../test/integration_test/dirty_transmission/hz_mut_rate.test.cc"
 #include "../test/integration_test/multi_infection/pgg.test.cc"
+#include "../test/integration_test/sgp/health_parasites.test.cc"
 
