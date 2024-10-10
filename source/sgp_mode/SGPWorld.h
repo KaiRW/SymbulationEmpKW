@@ -101,6 +101,12 @@ public:
     // These must be done here because we don't call SymWorld::Update()
     // That may change in the future
     emp::World<Organism>::Update();
+
+    // WHAT VARIABLE DO I NEEEED???
+    if(update % 50 == 0){
+      std::cout << "Host count data node: " << data_node_host_tasks[0].GetTotal() << std::endl;
+    }
+
     if (sgp_config->PHYLOGENY())
       sym_sys->Update();
     // Handle resource inflow
